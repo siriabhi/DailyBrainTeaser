@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="181dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/tech"
+                android:layout_width="181dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center|center_horizontal"
+                android:background="@color/abc"
+                android:text="@string/technology"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="181dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/science"
+                android:layout_width="181dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center|center_horizontal"
+                android:background="@color/ab1c"
+                android:paddingVertical="20dp"
+                android:text="@string/science"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="181dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/health"
+                android:layout_width="181dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center|center_horizontal"
+                android:background="@color/ab2c"
+                android:text="@string/health"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="181dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/gk"
+                android:layout_width="181dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center|center_horizontal"
+                android:background="@color/abc8"
+                android:text="@string/general_knowledge"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="181dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/vocab"
+                android:layout_width="181dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center|center_horizontal"
+                android:background="@color/abc9"
+                android:text="@string/vocabulary" />
+
+            <Space
+                android:layout_width="181dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/puzzles"
+                android:layout_width="181dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center"
+                android:background="@color/abc10"
+                android:text="@string/puzzles"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="181dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/Quotes"
+                android:layout_width="181dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center"
+                android:background="@color/abc11"
+                android:text="@string/quotations"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

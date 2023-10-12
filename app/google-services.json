@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "361997919751",
+    "project_id": "daily-brain-teaser",
+    "storage_bucket": "daily-brain-teaser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361997919751:android:b342f759a8369828292ca2",
+        "android_client_info": {
+          "package_name": "com.example.dailybrainteaser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361997919751-6rj8gc406h85tnd7btikghm0gmsuvrh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK8YoUbwXvJ3H1KJj39YfVVQg7OguJycY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361997919751-6rj8gc406h85tnd7btikghm0gmsuvrh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
